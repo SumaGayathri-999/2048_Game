@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-
+    overscroll-behavior: contain;
+    user-select: none;
 }
 body{
     display:flex;
