@@ -21,19 +21,19 @@ document.addEventListener('DOMContentLoaded', () => {
         square.innerHTML = ' ';
         grid_cont.appendChild(square);
         squares.push(square);
-        if(columns === 5){
-            square.style.width = "100px"
-            square.style.height = "100px"
+        if(columns === 4){
+            square.style.width = "92.5px"
+            square.style.height = "92.5px"
 
         }
         if(columns === 5){
-            square.style.width = "80px"
-            square.style.height = "80px"
+            square.style.width = "74px"
+            square.style.height = "74px"
 
         }
         if(columns === 6){
-            square.style.width = "66.66px"
-            square.style.height = "66.66px"
+            square.style.width = "61.66px"
+            square.style.height = "61.66px"
 
         }
       }
