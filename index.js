@@ -22,18 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
         grid_cont.appendChild(square);
         squares.push(square);
         if(columns === 4){
-            square.style.width = "92.5px"
-            square.style.height = "92.5px"
+            square.style.width = "8.5rem";
+            square.style.height = "8.5rem";
 
         }
         if(columns === 5){
-            square.style.width = "74px"
-            square.style.height = "74px"
+            square.style.width = "6.8rem"
+            square.style.height = "6.8rem"
 
         }
         if(columns === 6){
-            square.style.width = "61.66px"
-            square.style.height = "61.66px"
+            square.style.width = "5.6666rem"
+            square.style.height = "5.6666rem"
 
         }
       }
