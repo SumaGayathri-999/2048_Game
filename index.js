@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const rows = [];
     const cols = [];
     var crossed = false;
-  
+    document.body.style.zoom = "75%";
+
     createBoard();
     generateNum();
     generateNum();
