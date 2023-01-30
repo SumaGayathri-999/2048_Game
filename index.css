@@ -1,5 +1,8 @@
 *{
+    margin : 0;
+    Padding : 0;
     box-sizing: border-box;
+
     overscroll-behavior: contain;
     user-select: none;
 }
@@ -59,7 +62,6 @@ body{
   100%{
     font-size:30px;
          /* transform:scale(-1); */
-
   }
 }
 .col_btns_cont{
